@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "rocketseat-ignite-lab-3",
+    "slug": "rocketseat-ignite-lab-3",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "@react-native-firebase/app"
+    ],
+    "android": {
+      "package": "com.rocketseatignitelab3",
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "bundleIdentifier": "com.rocketseatignitelab3",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    }
+  }
+}
